@@ -15,7 +15,7 @@ export default function Navbar() {
               Home
             </Link>
             <a 
-              href="https://github.com/yourusername/vite-react-ssg" 
+              href="https://github.com/amitverma12345/vite-react-ssg-boilerplate" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
