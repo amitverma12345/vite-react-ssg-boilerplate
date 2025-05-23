@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "CommonJS",
+    "outDir": "dist",
+    "noEmit": false
+  },
+  "include": ["scripts", "vite.config.ts"]
+}
