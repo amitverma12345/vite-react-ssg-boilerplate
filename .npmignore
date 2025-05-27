@@ -1,0 +1,17 @@
+# Ignore configuration and meta files
+.git
+.gitignore
+.vscode
+*.log
+*.env
+
+# Ignore test and build output
+node_modules
+dist
+build
+coverage
+
+# Ignore local scripts and configs
+*.local
+*.DS_Store
+*.swp
