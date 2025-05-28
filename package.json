@@ -1,6 +1,8 @@
 {
-  "name": "vite-react-ts-boilerplate",
+  "name": "vite-react-ssg-boilerplate",
+  "private": true,
   "version": "0.0.0",
+  "description": "A modern, production-ready React boilerplate with Vite, SSR, SSG, and Supabase integration. Clone this repository to get started with all source files.",
   "type": "module",
   "scripts": {
     "dev": "vite",
