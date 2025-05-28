@@ -1,6 +1,47 @@
-# Vite React Boilerplate
+# Vite React SSG Boilerplate
 
 A modern, production-ready React boilerplate built with Vite, featuring SSR, SSG, and Supabase integration.
+
+## Quick Start
+
+### Option 1: Fork and Clone (Recommended)
+
+1. **Fork the Repository**
+   - Click the "Fork" button on the top right of this repository
+   - This creates your own copy of the repository
+
+2. **Clone Your Fork**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/vite-react-ssg-boilerplate.git
+   cd vite-react-ssg-boilerplate
+   ```
+
+3. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+4. **Start Development**
+   ```bash
+   npm run dev
+   ```
+
+### Option 2: Direct Clone
+
+```bash
+git clone https://github.com/amitverma12345/vite-react-ssg-boilerplate.git
+cd vite-react-ssg-boilerplate
+npm install
+npm run dev
+```
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to:
+- Fork the repository
+- Create a new branch
+- Make your changes
+- Submit a pull request
 
 ## Features
 
@@ -15,32 +56,6 @@ A modern, production-ready React boilerplate built with Vite, featuring SSR, SSG
 - 💅 [Prettier](https://prettier.io/) - Code formatter
 - 🧪 [Vitest](https://vitest.dev/) - Unit testing framework
 - 📱 [PWA](https://vite-pwa-org.netlify.app/) - Progressive Web App support
-
-## Quick Start
-
-### Clone the Repository
-
-```bash
-# Clone the repository to get all source files
-git clone https://github.com/amitverma12345/vite-react-ssg-boilerplate.git
-
-# Navigate to project directory
-cd vite-react-ssg-boilerplate
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-> **Note:** If you want to use this as a template for your project, clone the repository instead of using `npm install`. This will give you access to all source files and the project structure.
 
 ## Project Structure
 
@@ -86,16 +101,6 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 - `npm run lint` - Run ESLint
 - `npm run format` - Format code with Prettier
 - `npm run type-check` - Run TypeScript type checking
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
