@@ -18,12 +18,33 @@ A modern, production-ready React boilerplate built with Vite, featuring SSR, SSG
 
 ## Quick Start
 
+### Option 1: Install via npm
+
 ```bash
-# Create a new project using this boilerplate
-npm create vite-boiler@latest my-app
+# Install the package
+npm install vite-react-ssg-boilerplate
+
+# Navigate to your project directory
+cd your-project
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+### Option 2: Clone the Repository
+
+```bash
+# Clone the repository
+git clone https://github.com/amitverma12345/vite-react-ssg-boilerplate.git
 
 # Navigate to project directory
-cd my-app
+cd vite-react-ssg-boilerplate
 
 # Install dependencies
 npm install
